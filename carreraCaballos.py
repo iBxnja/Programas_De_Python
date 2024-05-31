@@ -25,9 +25,9 @@ while contadorC1 != contador or contadorC2 != contador or contadorC3 != contador
     print("----------------------------------------------------------")
     if(contadorC1 == contador):
             print("Ganador el caballo numero 1")
-    if(contadorC2 == contador):
+    elif(contadorC2 == contador):
             print("Ganador el caballo numero 2")
-    if(contadorC3 == contador):
+    elif(contadorC3 == contador):
             print("Ganador el caballo numero 3")
     if contadorC1 == contador or contadorC2 == contador or contadorC3 == contador:
         break
